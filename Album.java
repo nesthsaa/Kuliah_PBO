@@ -9,6 +9,7 @@ package com.mycompany.posttest1;
  * @author Asus Gk
  */
 public class Album {
+    
     private String namaAlbum;
     private String versi;
     private String artis;
