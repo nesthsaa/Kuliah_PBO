@@ -13,20 +13,22 @@ import java.util.ArrayList;
 
 public class Posttest1 {
     public static void main(String[] args) {
-        System.out.println("Album Kpop Agnes");
-        // Buat ArrayList untuk menyimpan objek Album
+        System.out.println("=== List Album Kpop Agnes ===");
+        
+        // Membuat ArrayList untuk menyimpan objek Album
         ArrayList<Album> albums = new ArrayList<>();
 
-        // Isi dengan 5 objek Album
-        albums.add(new Album("The First Step: Chapter Two", "white", "Treasure"));
-        albums.add(new Album("The First Step: Treasure Effect", "orange", "Treasure"));
-        albums.add(new Album("Nama Album 3", "Versi C", "Artis C"));
-        albums.add(new Album("Nama Album 4", "Versi A", "Artis A"));
-        albums.add(new Album("Nama Album 5", "Versi D", "Artis D"));
+        //6 objek Album
+        albums.add(new Album("HEART*IZ", "Sapphire", "IZ*One"));
+        albums.add(new Album("The First Step: Chapter Two", "White", "Treasure"));
+        albums.add(new Album("The First Step: Treasure Effect", "Orange", "Treasure"));
+        albums.add(new Album("First Impact", "Connect O", "Kep1er"));
+        albums.add(new Album("Get Up", "Bunny Beach Bag", "NewJeans"));
+        albums.add(new Album("Youth in the Shade", "Youth", "Zerobaseone"));
 
-        // Tampilkan info Album dalam ArrayList
+        // Untuk menampilkan info album dalam ArrayList
         for (Album album : albums) {
-            System.out.println("Album" + album.getNamaAlbum() +
+            System.out.println("Album " + album.getNamaAlbum() +
                                " versi " + album.getVersi() +
                                " dari " + album.getArtis());
         }
